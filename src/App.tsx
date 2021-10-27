@@ -18,7 +18,7 @@ const config = {
   },
 };
 
-const App: React.FC = () => {
+export const App: React.FC = () => {
   return (
     <NavigationContainer>
       <NativeBaseProvider
