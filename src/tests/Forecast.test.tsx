@@ -2,7 +2,6 @@
 jest.useFakeTimers();
 import React from 'react';
 import { NativeBaseProvider } from 'native-base';
-import { parse } from 'react-native-svg';
 import renderer from 'react-test-renderer';
 import { toFixedNoRounding } from '../app/toFixedNoRouding';
 import Forecast from '../components/Forecast';

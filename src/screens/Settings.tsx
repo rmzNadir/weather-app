@@ -55,7 +55,9 @@ const City = () => {
             <HStack alignItems='center' space='2'>
               <Icon as={FontAwesome5} name='github' color='primary.500' />
               <Pressable
-                onPress={() => Linking.openURL('https://github.com/rmzNadir')}>
+                onPress={async () =>
+                  Linking.openURL('https://github.com/rmzNadir')
+                }>
                 <Heading
                   underline
                   _dark={{ color: 'muted.200' }}
@@ -73,7 +75,7 @@ const City = () => {
                 color='primary.500'
               />
               <Pressable
-                onPress={() =>
+                onPress={async () =>
                   Linking.openURL('https://github.com/rmzNadir/weather-app')
                 }>
                 <Heading
@@ -147,6 +149,15 @@ const City = () => {
               color='primary.500'
             />
             <Text>Prettier</Text>
+          </HStack>
+          <HStack space='2' alignItems='center'>
+            <Icon
+              as={AntDesign}
+              size='xs'
+              name='caretright'
+              color='primary.500'
+            />
+            <Text>React Test Renderer</Text>
           </HStack>
           <HStack space='2' alignItems='center'>
             <Icon

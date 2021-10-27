@@ -3,8 +3,11 @@ import 'dotenv/config';
 export default {
   expo: {
     entryPoint: './src/App.tsx',
-    name: 'weather-app',
+    name: 'Weather App',
     slug: 'weather-app',
+    privacy: 'public',
+    description:
+      "Mobile app that helps you find next week's weather forecasts for different cities.",
     version: '1.0.0',
     orientation: 'portrait',
     icon: './src/assets/icon.png',
